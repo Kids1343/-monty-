@@ -1,4 +1,7 @@
+#define _POSIX_C_SOURCE  200809L
+#define _GNU_SOURCE
 #include "monty.h"
+
 
 /**
  * m_add - add the top two elements of the stack
